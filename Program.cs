@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int tabuada;
+
+Console.Clear();
+
+Console.WriteLine("Digite um número: ");
+tabuada = Convert.ToInt32(Console.ReadLine());
+
+for (int i = 1; i <= 10; i++)
+{
+    Console.WriteLine($"{tabuada} x {i} = {tabuada * i}");
+}
